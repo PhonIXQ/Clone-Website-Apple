@@ -5,7 +5,11 @@ const StyledPromo = styled.section`
    display: grid;
    grid-template-columns: auto auto;
    text-align: center;
-`
+
+   @media (max-width: 768px) {
+      grid-template-columns: auto;
+   }
+`;
 
 const Promo = () => {
    return (

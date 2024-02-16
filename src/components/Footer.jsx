@@ -7,6 +7,11 @@ const StyledFooter = styled.footer`
    padding: 40px 0;
    max-width: 980px;
 
+   @media (max-width: 768px) {
+      flex-direction: column;
+      margin-left: 30px;
+   }
+
    div {
       display: flex;
       flex-direction: column;
